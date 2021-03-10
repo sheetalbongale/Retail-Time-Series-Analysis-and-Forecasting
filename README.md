@@ -40,3 +40,12 @@ assigned to each customer.
 resides.
 
 Source: http://archive.ics.uci.edu/ml/machine-learning-databases/00352/
+
+## Steps
+
+1. Data Wrangling and Exploratory Data Analysis
+2. Feature Engineering and Selection
+3. Modeling and forecasting
+4. Model evaluation and validation
+5. Sales quantity forecast results
+6. Observation and analysis report
