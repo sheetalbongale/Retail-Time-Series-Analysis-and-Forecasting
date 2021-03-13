@@ -1,10 +1,11 @@
 # Online Retail Sales Time Series Analysis Forecasting
 
+![image](img/ts1.jpg)
 ## Challenge
 
 The store is interested in maintaining the right inventory given its historical sales.
 Build a model that predicts sales quantities for the 7 days from 11/27/2011 -
-12/3/2011 Sun - Sat). To help the company prepare for the worst case, please
+12/3/2011 Sun - Sat. To help the company prepare for the worst case, please
 focus your predictions and the evaluation of your model on only the top three
 selling items.
 
