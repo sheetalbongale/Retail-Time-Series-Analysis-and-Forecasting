@@ -1,6 +1,6 @@
 # Online Retail Sales Time Series Analysis Forecasting
 
-![image](img/ts1.jpg)
+![image](img/ts4.jpg)
 ## Challenge
 
 The store is interested in maintaining the right inventory given its historical sales.
@@ -26,6 +26,7 @@ This is a public, transnational data set on transactions from
 company.
 
 **Columns:**
+```
 - InvoiceNo: Invoice number. Nominal, a 6-digit integral number uniquely assigned
 to each transaction. If this code starts with letter 'c', it indicates a cancellation.
 - StockCode: Product (item) code. Nominal, a 5-digit integral number uniquely
@@ -39,6 +40,7 @@ transaction was generated.
 assigned to each customer.
 - Country: Country name. Nominal, the name of the country where each customer
 resides.
+```
 
 Source: http://archive.ics.uci.edu/ml/machine-learning-databases/00352/
 
@@ -50,3 +52,9 @@ Source: http://archive.ics.uci.edu/ml/machine-learning-databases/00352/
 4. Model evaluation and validation
 5. Sales quantity forecast results
 6. Observation and analysis report
+
+## Models under evaluation
+- ARIMA
+- SARIMA
+- Prophet
+- LSTM
