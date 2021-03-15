@@ -17,6 +17,8 @@ ipykernel = "*"
 statsmodels = "*"
 plotly = "*"
 nbformat = "*"
+keras = "*"
+tensorflow = "*"
 
 [requires]
 python_version = "3.8"
