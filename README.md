@@ -1,4 +1,4 @@
-# Online Retail Sales Time Series Analysis Forecasting
+# Online Retail Sales Time Series Analysis & Forecasting
 
 ![image](img/ts4.jpg)
 ## Challenge
@@ -50,11 +50,11 @@ Source: http://archive.ics.uci.edu/ml/machine-learning-databases/00352/
 2. Feature Engineering and Selection
 3. Modeling and forecasting
 4. Model evaluation and validation
-5. Sales quantity forecast results
-6. Observation and analysis report
+5. Sales quantity forecast results and visualization
+6. Final results and analysis report
 
 ## Models under evaluation
-- ARIMA
-- SARIMA
+- ARIMA/SARIMA
+- Naïve forecast
 - Prophet
 - LSTM
