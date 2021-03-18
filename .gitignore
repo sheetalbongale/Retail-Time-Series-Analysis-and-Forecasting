@@ -130,3 +130,5 @@ dmypy.json
 
 #other
 .DS_Store
+notebooks/sheetal_bongale_report.ipynb
+sheetal_bongale_report.pdf
