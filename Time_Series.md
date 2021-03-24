@@ -12,7 +12,7 @@
 
 ## Stationary Data:
 
-![time_series](img/time series.png)
+![time_series](img/timeseries.png)
 
 When a time series is stationary, it can be easier to model. Statistical modeling methods assume or require the time series to be stationary.
 
