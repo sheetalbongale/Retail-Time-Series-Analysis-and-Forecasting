@@ -22,7 +22,7 @@ This is a public, transnational data set on transactions from 12/01/2010 and 12/
 - CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
 - Country: Country name. Nominal, the name of the country where each customer resides.
 ```
-![image](https://user-images.githubusercontent.com/57145360/111962136-efb5fc80-8abf-11eb-8708-d49fc7a96274.png)
+![image](../img/df.png)
 
 Source: http://archive.ics.uci.edu/ml/machine-learning-databases/00352/
 
@@ -43,21 +43,21 @@ Source: http://archive.ics.uci.edu/ml/machine-learning-databases/00352/
 
 ## EDA 
 
-![image](https://user-images.githubusercontent.com/57145360/111962229-0a887100-8ac0-11eb-9741-195a6191a90a.png)
+![image](../img/daily_sales.png)
 
 Seems like the data is non-stationary and has some spike in sales in Feb and end of Nov in this dataset. 
 
-![image](https://user-images.githubusercontent.com/57145360/111962564-736fe900-8ac0-11eb-99cd-fe63ef3370ad.png)
+![image](../img/pacf.png)
 
  
 After some data wrangling, I found the top three selling items that we defined as items which had the greatest total sales over the week from 11/27/2011 - 12/3/2011 across all countries. 
 
 Here were the top 10 items:
 
- ![image](https://user-images.githubusercontent.com/57145360/111962314-2a1f9980-8ac0-11eb-8499-9a8bb334328b.png)
+![image](../img/top10.png)
 
 The data is primarily from UK shown in the map below:
 
-![image](https://user-images.githubusercontent.com/57145360/111962499-5dfabf00-8ac0-11eb-96be-543ffb1b4fb5.png)
+![image](../img/countries.png)
 
 

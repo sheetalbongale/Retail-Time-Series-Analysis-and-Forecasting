@@ -12,7 +12,7 @@
 
 ## Stationary Data:
 
-![time_series](time series.png)
+![time_series](../img/time series.png)
 
 When a time series is stationary, it can be easier to model. Statistical modeling methods assume or require the time series to be stationary.
 
@@ -28,6 +28,10 @@ The testing part of hypothesis tests allows us to determine which theory, the nu
 The level of significance(alpha) is the percentage of risk we are willing to take while rejecting the null hypothesis.
 P-value is the probability that a random chance generated the data or something else that is equal or rarer (under the null hypothesis). We calculate the p-value for the sample statistics(which is the sample mean in our case). We can do it manually by looking at the z-table or use some statistical software to compute it.
 
+## ACF Vs PACF
+ACF is an (complete) auto-correlation function which gives us values of auto-correlation of any series with its lagged values. We plot these values along with the confidence band and tada! We have an ACF plot. In simple terms, it describes how well the present value of the series is related with its past values. A time series can have components like trend, seasonality, cyclic and residual. ACF considers all these components while finding correlations hence it’s a ‘complete auto-correlation plot’.
+
+PACF is a partial auto-correlation function. Basically instead of finding correlations of present with lags like ACF, it finds correlation of the residuals (which remains after removing the effects which are already explained by the earlier lag(s)) with the next lag value hence ‘partial’ and not ‘complete’ as we remove already found variations before we find the next correlation. So if there is any hidden information in the residual which can be modeled by the next lag, we might get a good correlation and we will keep that next lag as a feature while modeling. Remember while modeling we don’t want to keep too many features which are correlated as that can create multicollinearity issues. Hence we need to retain only the relevant features.
 
 ## The ARIMA Time Series Model
 One of the most common methods used in time series forecasting is known as the ARIMA model, which stands for AutoregRessive Integrated Moving Average. ARIMA is a model that can be fitted to time series data in order to better understand or predict future points in the series.
@@ -47,5 +51,5 @@ When dealing with seasonal effects, we make use of the seasonal ARIMA, which is 
 
 `Forecasts = trailing moving avergae of differenced series + centered moving average of past series (t-365)`
 
-References:
+### References:
 https://www.khanacademy.org/math/statistics-probability
