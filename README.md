@@ -22,7 +22,7 @@ This is a public, transnational data set on transactions from 12/01/2010 and 12/
 - CustomerID: Customer number. Nominal, a 5-digit integral number uniquely assigned to each customer.
 - Country: Country name. Nominal, the name of the country where each customer resides.
 ```
-![image](../img/df.png)
+![image](img/df.png)
 
 Source: http://archive.ics.uci.edu/ml/machine-learning-databases/00352/
 
@@ -43,21 +43,21 @@ Source: http://archive.ics.uci.edu/ml/machine-learning-databases/00352/
 
 ## EDA 
 
-![image](../img/daily_sales.png)
+![image](img/daily_sales.png)
 
 Seems like the data is non-stationary and has some spike in sales in Feb and end of Nov in this dataset. 
 
-![image](../img/pacf.png)
+![image](img/pacf.png)
 
  
 After some data wrangling, I found the top three selling items that we defined as items which had the greatest total sales over the week from 11/27/2011 - 12/3/2011 across all countries. 
 
 Here were the top 10 items:
 
-![image](../img/top10.png)
+![image](img/top10.png)
 
 The data is primarily from UK shown in the map below:
 
-![image](../img/countries.png)
+![image](img/countries.png)
 
 
